@@ -107,9 +107,6 @@ while True:
     if not ret:
         break
 
-    #frame = vs.read()
-    #frame = imutils.resize(frame, width=600)
-
     # grab the frame dimensions and convert it to a blob
     (h, w) = frame.shape[:2]
 
